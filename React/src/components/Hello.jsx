@@ -2,7 +2,7 @@ const name = "Rob";
 function displayMessage() {
   return "Wow!!!";
 }
-function Hello() {
+function Hello(props) {
   return (
     <div>
       <h1>
@@ -15,6 +15,8 @@ function Hello() {
         {displayMessage()}
         <br />
         Hello Mike!!
+        <br />
+        Hello {props.name}, {props.message}
       </h1>
     </div>
   );

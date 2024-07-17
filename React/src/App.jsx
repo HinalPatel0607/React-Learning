@@ -8,6 +8,8 @@ function App() {
       <Hello />
       <Hello />
       <Hello />
+      <Hello name="Rob" message="How are you??" />
+      <Hello name="Tom" message="You are also here, Great!!" />
     </div>
   );
 }
