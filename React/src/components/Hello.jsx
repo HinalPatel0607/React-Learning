@@ -13,6 +13,8 @@ function Hello() {
         {10 + 20}
         <br />
         {displayMessage()}
+        <br />
+        Hello Mike!!
       </h1>
     </div>
   );
