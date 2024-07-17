@@ -1,5 +1,7 @@
 import React from "react";
 import Hello from "./components/Hello";
+import Destructuringprops from "./components/Destructuringprops";
+import Destructuringpropsindefinition from "./components/Destructuringpropsindefinition";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hello />
       <Hello name="Rob" message="How are you??" />
       <Hello name="Tom" message="You are also here, Great!!" />
+      <Destructuringprops name="Hinal" message="Good Luck" />
+      <Destructuringpropsindefinition subject="React" grade="A" />
     </div>
   );
 }
