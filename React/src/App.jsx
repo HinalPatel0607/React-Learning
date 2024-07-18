@@ -6,7 +6,8 @@ import Arrayprop from "./components/Arrayprop";
 import Objectprop from "./components/Objectprop";
 import Destructuringobjectprop from "./components/Destructuringobjectprop";
 import RenderArray from "./components/RenderArray";
-import RenderArrayOfObjects from "./RenderArrayOfObjects";
+import RenderArrayOfObjects from "./components/RenderArrayOfObjects";
+import FruitsObject from "./components/FruitsObject";
 
 function App() {
   const seatNumbers = [1, 4, 7];
@@ -31,6 +32,7 @@ function App() {
       <Destructuringobjectprop person={person} />
       <RenderArray />
       <RenderArrayOfObjects />
+      <FruitsObject />
     </div>
   );
 }
