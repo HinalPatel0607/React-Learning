@@ -8,6 +8,7 @@ import Destructuringobjectprop from "./components/Destructuringobjectprop";
 import RenderArray from "./components/RenderArray";
 import RenderArrayOfObjects from "./components/RenderArrayOfObjects";
 import FruitsObject from "./components/FruitsObject";
+import RenderingJSXConditionally from "./components/RenderingJSXConditionally";
 
 function App() {
   const seatNumbers = [1, 4, 7];
@@ -33,6 +34,7 @@ function App() {
       <RenderArray />
       <RenderArrayOfObjects />
       <FruitsObject />
+      <RenderingJSXConditionally />
     </div>
   );
 }
